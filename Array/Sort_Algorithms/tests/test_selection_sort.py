@@ -1,9 +1,9 @@
 import unittest
 from array import array
-from bubble_sort import bubble_sort as sort_function
+from selection_sort import selection_sort as sort_function
 
 
-class TestSort(unittest.TestCase):
+class TestSelectionSort(unittest.TestCase):
 
     def test_signed_int_array(self):
         test_data = array('i', [70, 90, 63, 18, 52, -6, -10, 83, 74, 85, 96, 63, 8, 82, 99, 5, 33, 97, 44, 57, 2, 61, -15, 44])
