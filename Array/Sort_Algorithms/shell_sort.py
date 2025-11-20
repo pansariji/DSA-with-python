@@ -14,12 +14,12 @@ def shell_sort(data:MutableSequence):
 
             j=i
             while j >= gap and data[j-gap]>new_element:
-                print(f"\twriting {data[j-gap]} to position {j}")
+                # print(f"\twriting {data[j-gap]} to position {j}")
                 data[j]=data[j-gap]
                 j-=gap
-            print(f"storing {new_element} to position {j}")
+            # print(f"storing {new_element} to position {j}")
             data[j]=new_element
-        print(f"end of the pass {gap}. data is now {data}")
+        # print(f"end of the pass {gap}. data is now {data}")
         gap//=3
         # gap//=2
 
